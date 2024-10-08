@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Libraries\CMSIS -I..\Libraries\FWlib\inc -I..\Libraries\FWlib\src -I..\User -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\OLED -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\FAN -I..\HARDWARE\IIC -I..\HARDWARE\KEY -I..\HARDWARE\DHT11 -I..\HARDWARE\LED -I..\HARDWARE\MOTOR
+-I D:\12-近期待调\STM32智能智能家居\Project\RTE
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.2\Device\Include
+-I C:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o ..\output\stm32f10x_rtc.o --omf_browse ..\output\stm32f10x_rtc.crf --depend ..\output\stm32f10x_rtc.d --feedback "..\Output\Project.fed" "..\Libraries\FWlib\src\stm32f10x_rtc.c"
